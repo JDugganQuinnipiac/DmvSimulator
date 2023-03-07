@@ -9,15 +9,15 @@ public class DmvSimulator{
 
         //Give user random wait number (1-100)
         Random r = new Random();
-        int waitNum = r.nextInt(100) + 1;
+        int waitNum = r.nextInt(200) + 1;
         System.out.println("Your number is " +  waitNum + ", please wait until your number is called.");
 
         //Call out numbers
-        for(int i = 1; i <= 100; i++){
-            if(i + waitNum <= 100){
+        for(int i = 1; i <= 200; i++){
+            if(i + waitNum <= 200){
                 System.out.println("Number " + (i + waitNum) + "! Please come up!");
-            }else if (i + waitNum > 100){
-                System.out.println("Number " + ((i + waitNum) - 100) + "! Please come up!");
+            }else if (i + waitNum > 200){
+                System.out.println("Number " + ((i + waitNum) - 200) + "! Please come up!");
             }
         }
 
