@@ -10,6 +10,7 @@ public class DmvSimulator{
         //Give user random wait number (1-100)
         Random r = new Random();
         int waitNum = r.nextInt(200) + 1;
+        int miracleNum = r.nextInt(100);
         System.out.println("Your number is " +  waitNum + ", please wait until your number is called.");
 
         //Call out numbers
@@ -20,8 +21,10 @@ public class DmvSimulator{
                 System.out.println("Number " + ((i + waitNum) - 200) + "! Please come up!");
             }
         }
-
-        //User doesn't have paperwork :(
-        System.out.println("MUAHAHAHAHAHAHA!!!");
+            if(miracleNum == 7){
+                System.out.println("Wow you have all your paperwork. Well done.");
+            }else {
+                System.out.println("MUAHAHAHAHAHAHA!!! What a Pepega. Imagine not having the required paperwork. KEKW... You'll have to come back and wait again");
+            }
     }
 }
