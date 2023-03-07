@@ -21,12 +21,10 @@ public class DmvSimulator{
                 System.out.println("Number " + ((i + waitNum) - 200) + "! Please come up!");
             }
         }
-
-        
             if(miracleNum == 7){
                 System.out.println("Wow you have all your paperwork. Well done.");
             }else {
-                System.out.println("What a Pepega. Imagine not having the required paperwork. KEKW... You'll have to come back and wait again");
+                System.out.println("MUAHAHAHAHAHAHA!!! What a Pepega. Imagine not having the required paperwork. KEKW... You'll have to come back and wait again");
             }
     }
 }
