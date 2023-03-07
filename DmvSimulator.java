@@ -22,6 +22,6 @@ public class DmvSimulator{
         }
 
         //User doesn't have paperwork :(
-        System.out.println("What a Pepega. Imagine not having the required paperwork. KEKW... You'll have to come back and wait again");
+        System.out.println("MUAHAHAHAHAHAHA!!!");
     }
 }
